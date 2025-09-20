@@ -3,13 +3,13 @@ import React from 'react'
 const MagicButton = ({
     title,
     icon,
-    postion,
+    position,
     handleClick,
     otherClasses,
 }: {
     title: string
     icon: React.ReactNode
-    postion: 'left' | 'right'
+    position: 'left' | 'right'
     handleClick?: () => void
     otherClasses?: string
 }) => {
@@ -29,9 +29,9 @@ const MagicButton = ({
                     rounded-full bg-slate-950 px-1 sm:px-3 py-1 text-xs sm:text-sm font-medium text-white 
                     backdrop-blur-3xl gap-2 ${otherClasses || ''}`}
             >
-                {postion === 'left' && icon}
+                {position === 'left' && icon}
                 {title}
-                {postion === 'right' && icon}
+                {position === 'right' && icon}
             </span>
         </button>
     )
