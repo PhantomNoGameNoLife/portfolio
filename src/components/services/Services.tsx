@@ -5,7 +5,7 @@ import { ServicesData } from "@/data";
 
 const Services = () => {
     return (
-        <section id="services" className="w-full py-20">
+        <section id="services" className="w-full py-20 px-4 md:px-8 lg:px-16">
             <h1 className="heading">
                 My <span className="text-purple">Services</span>
             </h1>

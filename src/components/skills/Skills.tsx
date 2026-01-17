@@ -34,7 +34,7 @@ export default function Skills() {
                             {/* Card background with glow - Matched to Projects theme */}
                             <div className="absolute inset-0 bg-gradient-to-br from-violet-600/20 to-purple-600/20 rounded-2xl blur opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
-                            <div className="relative bg-[#13162D] border border-white/[0.1] group-hover:border-purple/50 rounded-2xl p-8 transition-all duration-300 h-full overflow-hidden">
+                            <div className="relative bg-[#13162D] border border-white/[0.1] group-hover:border-purple/50 rounded-2xl md:p-8 p-4 transition-all duration-300 h-full overflow-hidden">
                                 {/* Header */}
                                 <div className="flex items-center gap-4 mb-8">
                                     <motion.div
