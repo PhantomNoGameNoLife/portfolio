@@ -31,7 +31,7 @@ const Projects = () => {
         <section id="projects" className="py-20">
             <h1 className="heading">
                 A small selection of{" "}
-                <span className="text-[var(--purple)]">recent projects</span>
+                <span className="text-purple">recent projects</span>
             </h1>
 
             {/* ===== Tabs ===== */}
@@ -42,7 +42,7 @@ const Projects = () => {
                         onClick={() => setActiveTab(tab.key)}
                         className={`flex items-center gap-2 px-4 py-2 rounded-full border transition
                         ${activeTab === tab.key
-                                ? "bg-[var(--purple)] text-white border-[var(--purple)]"
+                                ? "bg-purple text-white border-purple"
                                 : "border-white/20 text-white hover:bg-white/10"
                             }`}
                     >
@@ -118,7 +118,7 @@ const Projects = () => {
                         onClick={() => setCurrentPage(index + 1)}
                         className={`w-10 h-10 rounded-full border transition
                 ${currentPage === index + 1
-                                ? "bg-[var(--purple)] text-white border-[var(--purple)]"
+                                ? "bg-purple text-white border-purple"
                                 : "border-white/20 text-white hover:bg-white/10"
                             }`}
                     >

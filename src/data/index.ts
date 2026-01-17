@@ -1,4 +1,5 @@
 export const navItems = [
+  { name: "Home", link: "#home" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
@@ -193,66 +194,44 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Sherif is an exceptionally bright developer who consistently engages with complex concepts. His punctuality and analytical thinking during our sessions at Route Academy were truly impressive. He doesn't just write code; he deeply understands the logic behind it.",
+    name: "Eng. Hoda Khaled",
+    img: "/dataImgs/t1.png",
+    title: "Front-end Instructor at Route Academy",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I’ve seen firsthand Sherif's dedication to his craft. He has a remarkable habit of delivering high-quality tasks well within deadlines. His commitment and the quality of his front-end implementations show a developer who truly cares about the end result.",
+    name: "Eng. Ammar",
+    img: "/dataImgs/t2.webp",
+    title: "Front-end Monitor at Route Academy",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Sherif's ability to grasp new technologies quickly is impressive. Beyond his technical skills, his problem-solving mindset and disciplined approach to development make him a valuable asset to any engineering team he joins.",
+    name: "Professional Peer Review",
+    img: "/dataImgs/route.png",
+    title: "Route Academy Network",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Sherif in the DEPI initiative was a pleasure. His projects are characterized by clean, modular code and a very organized architectural approach. He has a professional knack for turning complex ideas into well-structured and highly maintainable technical solutions.",
+    name: "Eng. Mohamed Emad",
+    img: "/dataImgs/t4.png",
+    title: "Technical Instructor at DEPI",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/dataImgs/cloud.svg",
-    nameImg: "/dataImgs/cloudName.svg",
+    name: "Digital Egypt Pioneers",
+    img: "/dataImgs/DEP.png",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/dataImgs/app.svg",
-    nameImg: "/dataImgs/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/dataImgs/host.svg",
-    nameImg: "/dataImgs/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/dataImgs/s.svg",
-    nameImg: "/dataImgs/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dataImgs/dock.svg",
-    nameImg: "/dataImgs/dockerName.svg",
+    name: "Route",
+    img: "/dataImgs/route.png",
   },
 ];
 
