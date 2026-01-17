@@ -2,7 +2,6 @@
 import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ServicesData } from "@/data";
-import { CanvasRevealEffect } from "../ui/canvas-reveal-effect";
 
 const Services = () => {
     return (
@@ -18,11 +17,8 @@ const Services = () => {
                         icon={<AceternityIcon order={item.order} />}
                         des={item.des}
                     >
-                        <CanvasRevealEffect
-                            animationSpeed={item.animationSpeed}
-                            containerClassName={item.containerClassName}
-                            colors={item.colors}
-                            dotSize={item.dotSize}
+                        <div
+                            className={`absolute inset-0 w-full h-full ${item.containerClassName}`}
                         />
                     </Card>
                 ))}
@@ -68,7 +64,9 @@ const Card = ({
                     <motion.div
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
-                        className="h-full w-full absolute inset-0"
+                        exit={{ opacity: 0 }}
+                        transition={{ duration: 0.3 }}
+                        className="h-full w-full absolute inset-0 cursor-pointer"
                     >
                         {children}
                     </motion.div>
@@ -121,7 +119,11 @@ const AceternityIcon = ({ order }: { order: string }) => {
     );
 };
 
-export const Icon = ({ className, ...rest }: any) => {
+interface IconProps extends React.SVGAttributes<SVGSVGElement> {
+    className?: string;
+}
+
+export const Icon = ({ className, ...rest }: IconProps) => {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"

@@ -26,7 +26,7 @@ const socialLinks = [
 
 export default function SocialLinks() {
     return (
-        <ul className="flex gap-2 z-10 justify-center md:justify-start mt-6 md:mt-8">
+        <ul className="flex gap-2 z-10 justify-center md:justify-start">
             {socialLinks.map(({ href, icon, hover }, i) => (
                 <li key={i}>
                     <a

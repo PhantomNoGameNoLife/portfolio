@@ -262,33 +262,21 @@ export const ServicesData = [
     title: "System Architecture & API Planning",
     order: "Planning",
     des: "Mapping out the technical structure of your application, including database schemas and RESTful API endpoints. I focus on creating a solid backend foundation that supports scalable frontend features.",
-    animationSpeed: 5.1,
     containerClassName: "bg-emerald-900 rounded-3xl overflow-hidden",
-    colors: undefined,
-    dotSize: undefined,
   },
   {
     id: 2,
     title: "Dynamic Frontend Development",
     order: "Frontend",
     des: "Building responsive and interactive user interfaces using React.js and Next.js. I leverage TypeScript for type safety and Redux Toolkit or TanStack Query for efficient state management.",
-    animationSpeed: 3,
     containerClassName: "bg-pink-900 rounded-3xl overflow-hidden",
-    colors: [
-      [255, 166, 158],
-      [221, 255, 247],
-    ],
-    dotSize: 2,
   },
   {
     id: 3,
     title: "Full-Stack (React & Express.js)",
     order: "Backend",
     des: "Developing robust server-side logic using Express.js and integrating it seamlessly with the frontend. This includes handling CRUD operations, authentication, and ensuring smooth data flow across the entire stack",
-    animationSpeed: 3,
     containerClassName: "bg-sky-600 rounded-3xl overflow-hidden",
-    colors: [[125, 211, 252]],
-    dotSize: undefined,
   },
 ];
 

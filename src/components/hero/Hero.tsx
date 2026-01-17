@@ -38,7 +38,7 @@ const Hero = () => {
                         <TextGenerateEffect className='text-center lg:text-start lg:!max-w-lg' duration={0}
                             words={`I'm a front-end developer specializing in React and Next.js, with strong skills in TypeScript, Tailwind CSS, Redux Toolkit, and React Query. I enjoy building fast, modern web applications with smooth UI using Framer Motion, and integrating secure authentication and real-time features with NextAuth and Firebase.`}
                         />
-                        <div className="flex items-center mt-4 gap-1.5 sm:gap-3 flex-wrap justify-center">
+                        <div className="flex items-center mt-4 mb-6 md:mb-8 gap-1.5 sm:gap-3 flex-wrap justify-center">
                             <HireMe />
                             <AnimatedDownloadCvButton />
                             <Link href='#projects' className='block'>
