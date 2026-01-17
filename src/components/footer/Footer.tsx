@@ -26,7 +26,7 @@ const Footer = () => {
                     Reach out to me today and let&apos;s discuss how I can help you
                     achieve your goals.
                 </p>
-                <Link target="_blank" href="https://wa.me/201012983148">
+                <Link target="_blank" href="https://wa.me/201012983148" >
                     <MagicButton
                         title="Let's get in touch"
                         icon={<FaLocationArrow />}
@@ -34,7 +34,7 @@ const Footer = () => {
                     />
                 </Link>
             </div>
-            <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
+            <div className="flex mt-16 md:flex-row flex-col justify-between items-center gap-3">
                 <p className="md:text-base text-sm md:font-normal font-light">
                     Copyright © 2026 Sherif Alaa
                 </p>
