@@ -2,6 +2,7 @@ import About from "@/components/about/About";
 import Experience from "@/components/experience/Experience";
 import Hero from "@/components/hero/Hero";
 import Projects from "@/components/projects/Projects";
+import Services from "@/components/services/Services";
 import Testimonials from "@/components/testimonials/Testimonials";
 import { FloatingNav } from "@/components/ui/floating-navbar";
 import { navItems } from "@/data";
@@ -14,6 +15,7 @@ export default function Home() {
         <Hero />
         <About />
         <Experience />
+        <Services />
         <Projects />
         <Testimonials />
       </div>

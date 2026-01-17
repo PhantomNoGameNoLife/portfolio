@@ -70,8 +70,8 @@ export default function DownloadCvLink() {
 
     return (
         <a
-            href="/files/Sherif_Alaa(Front-End).pdf"
-            download="Sherif_Alaa(Front-End).pdf"
+            href="/files/Sherif_Alaa_CV.pdf"
+            download="Sherif_Alaa_CV.pdf"
             onClick={handleClick}
             className={`group flex items-center justify-center rounded-full py-3.5 px-1 sm:px-4 font-semibold text-xs sm:text-sm text-primary-foreground transition-colors duration-300 ${linkClass}`}
         >
