@@ -1,13 +1,3 @@
-export const navItems = [
-  { name: "Home", link: "#home" },
-  { name: "About", link: "#about" },
-  { name: "Experience", link: "#experience" },
-  { name: "Services", link: "#services" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
-];
-
 export const gridItems = [
   {
     id: 1,
@@ -27,7 +17,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/dataImgs/reshot-icon-smart-timer-NAP2G6K89S.svg",
+    img: "/dataImgs/timer.svg",
     spareImg: "",
   },
   {
@@ -280,17 +270,87 @@ export const ServicesData = [
   },
 ];
 
-export const socialMedia = [
+export const education = [
   {
-    id: 1,
-    img: "/dataImgs/git.svg",
+    institution: "Benha University",
+    degree: "Bachelor of Science in Computer Science | GPA: 3.4/4.0",
+    period: "Sep 2020 - Jun 2024",
+    description: "Bachelor of Science in Computer Science.",
   },
   {
-    id: 2,
-    img: "/dataImgs/twit.svg",
+    institution: "Route Academy",
+    degree: "Front-End Development Track",
+    period: "Mar 2025 - Sep 2025",
+    description:
+      "Completed intensive front-end training covering HTML5, CSS3, JavaScript (ES6+), OOP, Bootstrap, Tailwind CSS, TypeScript, React, and Next.js.",
   },
   {
-    id: 3,
-    img: "/dataImgs/link.svg",
+    institution: "Digital Egypt Pioneers Initiative (DEPI)",
+    degree: "AST-React Frontend Web Developer Program",
+    period: "Nov 2025 - Present",
+    description:
+      "Engaged in 200+ hours of advanced technical training in React development combined with professional soft skills and freelancing fundamentals.",
+  },
+];
+
+export const skills = [
+  {
+    category: "Frontend Development",
+    items: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "SCSS",
+      "Tailwind CSS",
+      "Bootstrap",
+    ],
+  },
+  {
+    category: "Tools & Libraries",
+    items: [
+      "Redux Toolkit",
+      "TanStack React Query",
+      "Zod",
+      "React Hook Form",
+      "NextAuth",
+      "Shadcn/UI",
+      "Git",
+    ],
+  },
+  {
+    category: "Concepts",
+    items: [
+      "Software engineering",
+      "SOLID Principles",
+      "Responsive Design",
+    ],
+  },
+  {
+    category: "Soft Skills",
+    items: [
+      "Troubleshooting",
+      "Problem-Solving",
+      "Critical thinking",
+      "Reliable",
+      "Communication",
+    ],
+  },
+];
+
+export const achievements = [
+  {
+    title: "AST-React Frontend Web Developer",
+    issuer: "Digital Egypt Pioneers Initiative (DEPI)",
+    description:
+      "Engaged in 200+ hours of advanced technical training in React development and freelancing fundamentals.",
+  },
+  {
+    title: "Front-End Development Track",
+    issuer: "Route Academy",
+    description:
+      "Completed intensive training covering React, Next.js, and TypeScript, developing 5+ production-ready projects.",
   },
 ];
