@@ -8,8 +8,9 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration",
-    description: "Building trust & communication",
+    title: "ABOUT ME",
+    description: `My journey as a React.js Developer began at Benha University, where I studied Computer Science and discovered my passion for web development. Through hands-on learning at DEPI and Route Academy, I strengthened my skills in React.js, Next.js, and TypeScript.
+                  Today, I focus on building responsive and scalable applications, always aiming to create smooth and meaningful user experiences.`,
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60dvh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
@@ -28,8 +29,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "A Touch of Personality",
+    description: "Positivity First",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -48,8 +49,10 @@ export const gridItems = [
   },
   {
     id: 5,
-    title: "Building JS animations",
-    description: "Interactive & smooth",
+    title: "The Value I Bring",
+    description: `Quality & Precision: I deliver clean, maintainable code and seamless UIs, driven by a meticulous attention to every detail.
+                  Persistent Problem-Solving: I tackle complex technical challenges with a "solve-it-at-all-costs" attitude to ensure efficient, scalable results.
+                  Reliability: I prioritize your time and project deadlines, maintaining high standards of excellence from start to finish.`,
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",

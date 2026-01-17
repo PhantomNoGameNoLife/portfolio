@@ -12,7 +12,7 @@ import ProfileImg from '../ui/ProfileImg'
 
 const Hero = () => {
     return (
-        <section className='pb-20 md:pt-36 pt-4'>
+        <section id='home' className='pb-20 md:pt-36 pt-4'>
             <Spotlight className='-top-40 -left-10 md:-left-32 md:-top-20 h-dvh' fill='white' />
             <Spotlight className='top-10 left-full h-[80dvh] w-[50dvw]' fill='purple' />
             <Spotlight className='top-28 left-80 h-[80dvh] w-[50dvw]' fill='blue' />

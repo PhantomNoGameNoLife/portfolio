@@ -82,8 +82,14 @@ export const BentoGridItem = ({
           titleClassName,
           "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"
         )}>
-          <div className="font-sans font-extralight md:max-w-md md:text-xs lg:text-base text-sm text-[#C1C2D3] z-10">
-            {description}
+          <div className="font-sans font-medium md:max-w-lg md:text-xs lg:text-lg text-sm z-10
+          ">
+            {typeof description === "string" &&
+              description.split("\n")
+                .filter((item: string) => item.trim() !== "")
+                .map((item: string, index: number) => (
+                  <p className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-500 overflow-hidden" key={index}>{item.trim()}</p>
+                ))}
           </div>
           <div
             className={`font-sans text-lg lg:text-3xl max-w-96 font-bold z-10`}
