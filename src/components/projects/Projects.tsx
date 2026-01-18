@@ -60,7 +60,7 @@ const Projects = () => {
                         key={`${activeTab}-${item.id}`}
                     >
                         <PinContainer title={item.link} href={item.link}>
-                            <div className="relative flex items-center justify-center 2xl:w-full lg:w-[23vw] w-[70vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
+                            <div className="relative flex items-center justify-center 2xl:w-full md:w-[23vw] w-[70vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                                 <div
                                     className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162D]"
                                 >
