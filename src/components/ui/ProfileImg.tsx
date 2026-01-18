@@ -1,18 +1,17 @@
-'use client'
-import useRotatingAnimation from '@/hooks/useRotating'
 import Image from 'next/image'
 import React from 'react'
 import myImg from '@/../public/imgs/myPhoto.webp'
 
 const ProfileImg = () => {
-    const ellipseRef = useRotatingAnimation()
     return (
         <div className="flex items-center justify-center">
             <div className="relative size-56 sm:size-60 md:size-[20rem] lg:size-[25.75rem]">
                 <Image
                     src={myImg}
                     alt="Sherif Alaa - Front-End Developer"
-                    priority
+                    priority={true}
+                    fetchPriority="high"
+                    loading="eager"
                     sizes="(max-width: 640px) 224px,
                             (max-width: 768px) 240px,
                             (max-width: 1024px) 320px,
@@ -22,8 +21,7 @@ const ProfileImg = () => {
                 />
                 {/* SVG Ellipse */}
                 <div
-                    ref={ellipseRef}
-                    className="absolute top-0 left-0 h-full w-full will-change-transform"
+                    className="absolute top-0 left-0 h-full w-full pointer-events-none animate-spin-slow"
                 >
                     <svg
                         className="h-full w-full"
