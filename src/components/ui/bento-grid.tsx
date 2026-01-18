@@ -42,8 +42,8 @@ export const BentoGridItem = ({
   spareImg?: string,
 }) => {
 
-  const leftLists = ["ReactJS", "NextJS", "Typescript"];
-  const rightLists = ["Tailwind Css", "JS", "HTML/CSS"];
+  const leftLists = ["Creative", "Consistent", "Adaptable"];
+  const rightLists = ["Simple", "Modern", "Effective"];
 
   return (
     <div
@@ -57,7 +57,8 @@ export const BentoGridItem = ({
       }}
     >
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
-        <div className="w-full h-full absolute">
+        <div
+          className={`w-full h-full absolute`}>
           {img && (
             <Image src={img} alt="title" width={500} height={500} className={cn(imgClassName, "object-cover object-center ")} />
           )}
@@ -96,10 +97,10 @@ export const BentoGridItem = ({
           >
             {title}
           </div>
-          {/* Tech stack list div */}
+          {/* Touch of Personality list div */}
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-              {/* tech stack lists */}
+              {/* Touch of Personality lists */}
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
                 {leftLists.map((item, i) => (
                   <span

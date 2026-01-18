@@ -7,7 +7,7 @@ const Experience = () => {
     return (
         <section id="experience" className="py-20 w-full px-4 md:px-8 lg:px-16">
             <h1 className="heading">
-                My <span className="text-purple">work experience</span>
+                My <span className="text-purple">experience</span>
             </h1>
 
             <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">

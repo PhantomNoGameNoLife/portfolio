@@ -12,6 +12,11 @@ const ProfileImg = () => {
                 <Image
                     src={myImg}
                     alt="Sherif Alaa - Front-End Developer"
+                    priority
+                    sizes="(max-width: 640px) 224px,
+                            (max-width: 768px) 240px,
+                            (max-width: 1024px) 320px,
+                            412px"
                     className="absolute top-0 left-0 h-full w-full object-cover p-4
                     size-56 sm:size-60 md:size-[20rem] lg:size-[25.75rem] rounded-full"
                 />
