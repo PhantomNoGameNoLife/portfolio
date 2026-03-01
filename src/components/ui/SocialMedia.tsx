@@ -9,7 +9,7 @@ const socialLinks = [
         hover: "hover:bg-blue-100 dark:hover:bg-blue-900",
     },
     {
-        href: "https://github.com/PhantomNoGameNoLife",
+        href: "https://github.com/Sh6rif-Alaa",
         label: "GitHub profile",
         icon: <FaGithub className="text-gray-800 dark:text-gray-100 w-5 h-5" />,
         hover: "hover:bg-gray-300 dark:hover:bg-gray-600",
